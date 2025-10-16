@@ -1,0 +1,49 @@
+.timer {
+    display: flex;
+    gap: 24px; 
+    padding-left: 32px;  
+}
+.field {
+    display: flex;
+    flex-direction: column;
+}
+.value {
+    font-weight: 400;
+font-size: 40px;
+
+/* line-height: 48px; */ 
+line-height: 1.2;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+.label {
+    font-weight: 400;
+font-size: 16px;
+
+/* line-height: 24px; */ 
+line-height: 1.5;
+color: #2e2f42;
+text-transform: uppercase;
+}
+.input-container {
+    display: flex;
+    gap: 8px;
+    padding-left: 32px; 
+    margin-bottom: 32px;
+}
+.start-btn {
+    border-radius: 8px;
+padding: 8px 16px;
+width: 75px;
+height: 40px;
+border: none;
+color: #fff;
+background: #4e75ff;
+}
+.start-btn:disabled {
+    background: #cfcfcf;
+    color: #989898;
+}
+.data-input {
+    width: 272px;
+}
